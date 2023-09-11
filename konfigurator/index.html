@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfigurator Kamer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="https://orllo.pl/" target="_blank"><img id="logo_orllo" src="2000x1000-transparent.png" alt="orllo.pl logo"></a>
+    <section id="survey">
+       <div class="q1">
+            <h3>Z jakiej aplikacji korzystasz?</h3>
+                <button name="apka" class="pytanie" type="submit" value="pierwszy">To mój pierwszy zakup</button>
+                <button name="apka" class="pytanie" type="submit" value="tuya">TUYA</button><br>
+                <button name="apka" class="pytanie" type="submit" value="orllocam">OrlloCam</button><br>
+                <button name="apka" class="pytanie" type="submit" value="o-kam">O-KAM PRO</button><br>
+        </div>
+        <div class="q2">
+            <h3>Interesuje Cię kamera zewnętrzna czy wewnętrzna?</h3>
+                <button name="miejsce" class="pytanie" type="submit" value="zewnetrzna">Zewnętrzna</button><br>
+                <button name="miejsce" class="pytanie" type="submit" value="wewnetrzna">Wewnętrzna</button><br>
+        </div>
+        <div class="q3">
+            <h3>Czy w miejscu montażu jest dostęp do prądu?</h3>
+                <button name="prad" class="pytanie" type="submit" value="tak">Tak</button><br>
+                <button name="prad" class="pytanie" type="submit" value="nie">Nie</button><br>
+        </div>
+        <div class="q4">
+            <h3>Czy w miejscu montażu jest dostęp do internetu WiFi?</h3>
+                <button name="wifi" class="pytanie" type="submit" value="tak">Tak</button><br>
+                <button name="wifi" class="pytanie" type="submit" value="nie">Nie</button><br>
+        </div>
+        <div class="q5">
+            <h3>Wybierz obszar do monitorowania:</h3>
+                <button name="zasieg" class="pytanie" type="submit" value="do_10m">Do 10m</button><br>
+                <button name="zasieg" class="pytanie"type="submit" value="do_20m">Do 20m</button><br>
+                <button name="zasieg" class="pytanie" type="submit" value="powyzej_30m">Powyżej 30m</button><br>
+        </div>
+        <div class="q6">
+            <h3>Czy interesuje Cię funkcja wykrywania ludzi?</h3>
+                <button name="wykrywanie" class="pytanie" type="submit" value="tak">Tak</button><br>
+                <button name="wykrywanie"  class="pytanie"type="submit" value="nie">Nie</button><br>
+        </div>
+    </section>
+    <section class="choose">
+        <h3 id="h3">Idealna kamera Dla Ciebie to:</h3>
+        <div class="show">
+            <div id="show_camera">
+                <img id="kamery" src="" alt="Kamery wifi ip gsm bezprzewodowe przewodowe">
+                <p id="nazwa_kamery"></p>
+                <a id="link_przejdz" target="_blank" href=""><button type=submit value="Przejdź">Zobacz</button></a>
+            </div>
+            <div id="panel">
+                <img id="zdj_panel" src="" alt="Zdjęcie ORLLO SM6030 PRO">
+                <p id="nazwa_panel"></p>
+                <a id="panel_przejdz" target="_blank" href=""><button type=submit value="Przejdź">Zobacz</button></a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script> 
+</body>
+</html>
